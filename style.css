@@ -1,0 +1,28 @@
+body{
+    background: rgb(18,58,100);
+    color: white;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(177deg, rgba(18,58,100,1) 0%, rgba(48,101,118,1) 48%, rgba(48,118,109,1) 69%);
+}
+.class{
+    width: 100px;
+    height: 42px;
+    border: 1px solid red;
+    align-items: center;
+    border-radius: 7px;
+}
+.class button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 19px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.class button:active{
+    color: white;
+    background-color: green;
+}
